@@ -1,0 +1,52 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    margin-top: -60px;
+    .navbar{
+        display: flex;
+        a h1{
+              font-size: 30px;
+                color: black;
+                font-family: monospace;
+                letter-spacing: 2px;
+                font-weight: lighter;
+                
+
+            }
+    nav ul {
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+        #sale{
+            margin-right: 30px;
+        }
+        #search{
+            margin-left: 165px;
+        }
+        li a{
+            text-decoration: none;
+            margin: 0px 10px;
+            color: black; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            h1{
+                font-size: 50px;
+                color: black;
+                font-family: monospace;
+                letter-spacing: 2px;
+                font-weight: lighter;
+                
+
+            }
+            
+        }
+   
+    }
+    }
+    
+}

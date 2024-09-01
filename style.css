@@ -1,1 +1,65 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+*body {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -60px;
+}
+
+.header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .navbar a h1 {
+  font-size: 30px;
+  color: black;
+  font-family: monospace;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.header .navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.header .navbar nav ul #sale {
+  margin-right: 30px;
+}
+
+.header .navbar nav ul #search {
+  margin-left: 165px;
+}
+
+.header .navbar nav ul li a {
+  text-decoration: none;
+  margin: 0px 10px;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header .navbar nav ul li a h1 {
+  font-size: 50px;
+  color: black;
+  font-family: monospace;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=style.css.map */
