@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 $common-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$common-background-color:rgb(233, 230, 224);
 @mixin heading1(){
     font-size: 50px;
     color: black;
@@ -67,6 +68,7 @@ $common-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
 }
 }
+// glam section
 .glam{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -79,15 +81,16 @@ $common-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         width: 400px;
     }
 }
+// footerSection
 .footer{
     margin-top: 60px;
-    background-color: rgb(224, 222, 218);
+    background-color:$common-background-color;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+    gap: 20px;
     padding: 140px 40px 140px 40px;
     justify-content: center;
-    align-items: center; 
+    align-items: start; 
     
     h1{
         @include heading1();
@@ -98,15 +101,26 @@ $common-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         justify-content: left;
         align-items: left;
         text-align: left;
-        gap: 0px;
+        gap: 20px;
         p{
-            margin-top: -10px;
+            margin-top: 30px;
+            line-height: 30px;
         }
         img{
             height: 30px;
             margin-top: 20px;
             margin-bottom: -80px;
         }
+        h4{
+         margin-top: 30px;
+         margin-bottom: -35px;
+        }
 
     }
+   border-bottom: 1px solid white;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: $common-background-color;
 }
