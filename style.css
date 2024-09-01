@@ -15,6 +15,7 @@
   background-color: white;
   position: fixed;
   width: 100%;
+  z-index: 20;
 }
 
 .header .navbar {
@@ -89,6 +90,77 @@
 .glam img {
   height: 100%;
   width: 400px;
+}
+
+.weLove {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  background-color: #e9e6e0;
+  margin-top: 70px;
+}
+
+.weLove h3 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 30px;
+  font-size: x-large;
+}
+
+.weLove h3 i {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.weLove .card-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin-bottom: 140px;
+}
+
+.weLove .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 20px;
+}
+
+.weLove .card img {
+  width: 100%;
+  height: 450px;
+}
+
+.weLove .card a {
+  text-decoration: none;
+  color: black;
+}
+
+.weLove .card a:hover {
+  text-decoration: underline;
 }
 
 .footer {
