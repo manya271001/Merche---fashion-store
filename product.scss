@@ -1,2 +1,112 @@
 @import url("mixin");
 @import url("style");
+.product{
+
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    .filter{
+           grid-row: 1 / 6;
+           margin-top: 130px;
+           h2{
+            text-transform: capitalize;
+            font-size: larger;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           }
+           display: flex;
+           flex-direction: column;
+           justify-content: start;
+           align-items: start;
+           gap: 30px;
+           margin-left: 40px;
+           i{
+            margin: 0px 10px;
+           }
+           h4{
+            
+            transition:  text-decoration 1s ease-in-out;
+           }
+           h4:hover{
+            text-decoration: underline;
+            }
+            .stock{
+                display: flex;
+                align-items: center; 
+                p{
+                    display: inline-block;
+                }
+            }
+           #price:hover{
+            text-decoration: none;
+           }
+           #reset{
+            margin-left: 240px;
+           }
+          
+           button{
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            transition:  background-color 0.5s ease;
+           }
+           button:hover{
+            background-color: black;
+            color: blanchedalmond;
+            
+           }
+           
+           .slider-container{
+            width: 250px;
+            text-align: center; 
+            label{
+                font-weight: bold;
+                color: black;
+                display: block;
+                
+            }
+            input{
+                width: 100%;
+                height: 10px;
+                outline: none;
+                border-radius: 10px;
+                opacity: 0.8;
+                transition: opacity 0.2s;
+            }
+            input:hover{
+                opacity: 2;
+                
+            }
+            
+            .range{
+                display: flex;
+                gap: 150px;
+                margin-top: -20px;
+                font-weight: lighter;
+            }
+           }
+           
+
+    }
+    .card{
+          margin-top: 130px;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+     @include image_transition();
+    img{
+        width: 100%;
+        height: 450px;
+        
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+}

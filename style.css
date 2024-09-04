@@ -354,3 +354,48 @@ footer {
   background-color: #e9e6e0;
 }
 /*# sourceMappingURL=style.css.map */
+
+.header .navbar nav ul .dropdown {
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: rgb(250, 242, 242);
+    display: none;
+    padding: 10px 0;
+    margin: 0;
+    min-width: 250px;
+    z-index: 1000; 
+     border-radius: 10px;
+    box-shadow: #c7cbd1;
+}
+
+
+.header .navbar nav ul .navItem {
+    position: relative; 
+}
+
+.header .navbar nav ul .dropdown li {
+    padding: 10px;
+    color: rgb(9, 0, 0);
+    text-align: center;
+   
+}
+
+.header .navbar nav ul .dropdown li a {
+    color: black;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 200;
+}
+
+.header .navbar nav ul .dropdown li:hover {
+    background-color: #f3f0f0;
+    color: black;
+}
+
+.header .navbar nav ul .navItem:hover .dropdown,
+.header .navbar nav ul .dropdown:hover  {
+    display: block;
+    
+}

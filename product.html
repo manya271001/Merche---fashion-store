@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+ 
+    <title>DRESSES</title>
 </head>
 <body>
      <!-- Navbar section -->
@@ -15,9 +16,48 @@
           
             <nav>
                 <ul>   <li><a href="new_arrival.html">NEW <br> &nbsp; IN</a></li>
-                    <li><a href="product.html">DRESSES</a></li>
-                    <li><a href="product.html">TOPS</a></li>
-                    <li><a href="product.html">CLOTHING</a></li>
+                    <li class="navItem"><a href="product.html">DRESSES</a>
+                      <ul class="dropdown">
+                    <li><a href="#">All Dresses</a></li>
+                    <li><a href="#">Bandeau Dresses</a></li>
+                    <li><a href="#">Backless Dresses</a></li>
+                    <li><a href="#">Day Dresses</a></li>
+                    <li><a href="#">Black Dresses</a></li>
+                    <li><a href="#">Floral Dresses</a></li>
+                    <li><a href="#">Formal Dresses</a></li>
+                    <li><a href="#">Long Sleeve Dresses</a></li>
+                    <li><a href="#">Part Dresses</a></li>
+                </ul>
+                    </li>
+                    <li class="navItem"><a href="product.html">TOPS</a>
+                      <ul class="dropdown">
+                        <li><a href="#">All Tops</a></li>
+                        <li><a href="#">Corset</a></li>
+                        <li><a href="#">Crop Tops</a></li>
+                        <li><a href="#">Shirt</a></li>
+                        <li><a href="#">Casual Tops</a></li>
+                        <li><a href="#">Bandeau Tops</a></li>
+                        <li><a href="#">Halterneck Tops</a></li>
+                        <li><a href="#">Long Sleeved Tops</a></li>
+                        <li><a href="#">BodySuits</a></li>
+                        <li><a href="#">Bralettes</a></li>
+                    </ul>
+                    </li>
+                    <li class="navItem"><a href="product.html">CLOTHING</a>
+                       <ul class="dropdown">
+                        <li><a href="#">BOTTOMS</a></li>
+                        <li><a href="#">JUMPSUITS AND ROMPERS</a></li>
+                        <li><a href="#">COATS AND JACKET</a></li>
+                        <li><a href="#">SWEATSHIRT AND HOODIES</a></li>
+                        <li><a href="#">LOUNGWEAR</a></li>
+                        <li><a href="#">ACCESSORIES</a></li>
+                        <li><a href="#">SWIM</a></li>
+                        <li><a href="#">BACK IN STOCK</a></li>
+                        <li><a href="#"></a>EXCLUSIVE</li>
+                        <li><a href="#"></a>MOST LOVED3</li>
+                        
+                    </ul>
+                    </li>
                     <li id="sale"><a href="product.html">SALE</a></li>
                 
                    <li> <a href="index.html"><h1>MERCHE</h1></a></li>
@@ -30,6 +70,117 @@
             </nav>
         </div>
     </section>
+    <!-- product section -->
+    <section class="product">
+     <div class="filter">
+       <div><h4><i class="fa-solid fa-sliders" style="color: #010813;"></i>FILTER BY</h4></div> 
+       <div><h4><i class="fa-solid fa-trash" style="color: #00060f;"></i> CLEAR ALL</h4></div>
+       <div><h4><i class="fa-solid fa-bars fa-xs" style="color: #010a18;"></i> AVAILABILITY</h4></div>
+       <div class="stock"><input type="checkbox" name="" id=""><div><p>In Stock</p> </div> <div><h6>500</h6></div>  </div>
+       <div class="stock"><input type="checkbox" name="" id=""><div><p>Out Of Stock</p> </div> <div><h6>65</h6></div>  </div>
+       <div id="reset"><button type="reset">RESET</button></div>
+       <div> <h4 id="price"><i class="fa-solid fa-bars fa-xs" style="color: #010a18;"></i>PRICE</h4> </div>
+       <div class="slider-container"><label for="price"></label>
+            <input type="range" name="" id="price" min="500" max="13000" value="50" step="1" >
+            <div class="range">
+                <p>Rs.799</p>
+                <p>Rs.13000</p>
+            </div>
+        </div>
+        <div><h4><i class="fa-solid fa-bars fa-xs" style="color: #010a18;"></i>Tags</h4></div>
+        <div class="tags">
+            <button type="submit">Backless Dress</button>
+            <button type="submit">Bandeau Dress</button>
+        </div>
+         <div class="tags">
+            <button type="submit">Black Dress</button>
+            <button type="submit">Call the paparazzi</button>
+        </div>
+         <div class="tags">
+            <button type="submit">Day Dress</button>
+            <button type="submit">Day Dresses</button>
+            <button type="submit">Day Glam</button>
+        </div>
+         <div class="tags">
+            <button type="submit">Dress</button>
+            <button type="submit">Exclusive</button>
+            <button type="submit">Fea</button>
+            <button type="submit">Featured</button>
+        </div>
+         <div class="tags">
+            <button type="submit">Festival Shop</button>
+            <button type="submit">Floral Dresses</button>
+        </div>
+         <div class="tags">
+            <button type="submit">Long Sleev Tops</button>
+            <button type="submit">Maxi Dresses</button>
+        </div>
+         <div class="tags">
+            <button type="submit">Mini Dress</button>
+            <button type="submit">Most loved</button>
+            <button type="submit">New</button>
+        </div>
+         <div class="tags">
+            <button type="submit">New In</button>
+            <button type="submit">Party Dress</button>
+            <button type="submit">PARTY GIRLS</button>
+        </div>
+         <div class="tags">
+            <button type="submit">Day Dress</button>
+            <button type="submit">Day Dresses</button>
+            <button type="submit">Day Glam</button>
+        </div>
+
+     </div>
+       <div class="card">
+        <img src="img/d9.jpg" alt="">
+        <a href="#">Green Halter Neck A-Line Mini Dress</a>
+        <p>Rs 2,899.00</p>
+       </div>
+         <div class="card">
+        <img src="img/d6.jpg" alt="">
+        <a href="#">Green Halter Neck A-Line Mini Dress</a>
+        <p>Rs 2,899.00</p>
+       </div>
+         <div class="card">
+        <img src="img/d11.jpg" alt="">
+        <a href="#">Green Halter Neck A-Line Mini Dress</a>
+        <p>Rs 2,899.00</p>
+       </div>
+         <div class="card">
+        <img src="img/d4.jpg" alt="">
+        <a href="#">Green Halter Neck A-Line Mini Dress</a>
+        <p>Rs 2,899.00</p>
+       </div>
+         <div class="card">
+        <img src="img/d5.jpg" alt="">
+        <a href="#">Green Halter Neck A-Line Mini Dress</a>
+        <p>Rs 2,899.00</p>
+       </div>
+         <div class="card">
+        <img src="img/d3.jpg" alt="">
+        <a href="#">Green Halter Neck A-Line Mini Dress</a>
+        <p>Rs 2,899.00</p>
+       </div>
+         <div class="card">
+        <img src="img/d7.jpg" alt="">
+        <a href="#">Green Halter Neck A-Line Mini Dress</a>
+        <p>Rs 2,899.00</p>
+       </div>
+         <div class="card">
+        <img src="img/d8.jpg" alt="">
+        <a href="#">Green Halter Neck A-Line Mini Dress</a>
+        <p>Rs 2,899.00</p>
+       </div>
+         <div class="card">
+        <img src="img/d10.jpg" alt="">
+        <a href="#">Green Halter Neck A-Line Mini Dress</a>
+        <p>Rs 2,899.00</p>
+       </div>
+        
+
+    </section>
+
      <!-- footerSection -->
     <section class="footer">
         

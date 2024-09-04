@@ -1,0 +1,98 @@
+@import url('style');
+@import url('mixin');
+$common-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.header{
+    position: fixed;
+    
+}
+.productDetail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+     
+    .productImage{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+       
+        
+        img{
+            width: 400px;
+            height: 500px;
+        }
+        .smallImage{
+            display: flex;
+            img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+      
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        h3{
+            
+            font-size: 30px;
+            font-family: $common-font;
+        }
+        h2{
+            margin-top: -20px;
+            font-family: $common-font;
+            font-weight: 900;
+        }
+        p{
+            color: grey;
+          font-family: Arial, Helvetica, sans-serif;
+           font-weight: 300;
+        }
+        .Category{
+            display: flex;
+            justify-content: center;
+            p{
+                font-size: smaller;
+                margin-left: 150px;
+                font-weight: 300;
+            }
+        }
+    }
+      .size{
+       
+          display: flex;
+          gap: 30px;
+          margin-left: 50px;
+          .small
+          {
+            a
+            {
+            
+            background-color: black;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            }
+          }
+          .midium{
+            a{
+                background-color: white;
+            padding: 10px 20px;
+            color: gray;
+            text-decoration: none;
+            border: 1px solid black;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+            }
+           
+           
+            
+            }
+            }
+          }
+          
+    
